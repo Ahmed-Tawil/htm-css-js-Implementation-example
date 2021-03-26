@@ -5,6 +5,7 @@ padding: 0px;
 }
 body{
     font-family:"Calibri", "sans-serif" !important;
+    margin-bottom: 150px;
 
 }
 
@@ -149,12 +150,15 @@ font-weight: lighter;
 
 }
 
-.footer{
+#footer {
     background-color:  rgb(250, 221, 183);
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
     padding: 10px;
 }
 
-.footer  div{
-    padding: 10px;
-    text-align: center;
-}
+
