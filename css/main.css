@@ -1,0 +1,160 @@
+*{
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+}
+body{
+    font-family:"Calibri", "sans-serif" !important;
+
+}
+
+
+.container{
+    overflow: hidden;
+
+}
+.head{
+font-weight: lighter;
+}
+
+
+.header .head{
+    background-color: rgb(250, 221, 183);
+    padding: 10px;
+}
+.logo{
+    text-transform: uppercase;
+
+}
+.logo h1{
+   font-family:"High Tower Text", "sans-serif" !important;
+   font-size:40px;
+   text-align: center;
+   margin:  auto ;
+   padding: 20px 20px 0px 20px
+
+}
+.logo h2{
+    font-size:15px;
+    text-align: center;
+    margin:  auto ;
+    padding: 8px 20px 30px 20px
+
+}
+
+.cate ul{
+    text-align: center;
+
+}
+
+.cate ul li{
+    display:inline-block;
+    margin: 0 18px;
+}
+.cate ul li:hover{
+   border-bottom: black solid 2px;
+}
+
+.cate ul li a{
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight:500;
+
+}
+
+
+.active{
+    color: red !important;
+}
+
+.section-cat{
+    background-color: #f6f6f5;
+
+}
+.section-cat{
+    margin: 50px 0;
+    padding: 50px 0;
+    background-color: #f6f6f5;
+
+}
+.section-cat .head-text , .sub-head-text{
+    text-align: center;
+    padding: 10px;
+}
+
+.head-text{
+    background-color: rgb(250, 221, 183);
+    width:max-content;
+    margin: auto;
+    border-radius: 20px;
+    font-size:medium;
+    text-transform: uppercase;
+
+}
+
+
+.cards{
+    margin-top: 10px;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+  
+}
+
+
+.card{
+    overflow: hidden;
+    box-shadow: 0px 2px 8px 0px var(--clr-gray-light);
+    background-color: white;
+    text-align: center;
+    border-radius: 1rem;
+    margin: 20px;
+    width: 300px;
+    height: 600;
+ }
+
+ .card img{
+   width: 300px;
+   height: 400px;
+   object-fit: cover;
+
+   
+ 
+}
+.product-info{
+    text-align: center;
+    text-transform: uppercase;
+    height:  140px;
+
+}
+.product-info , h3 {
+   padding: 20px;
+
+}
+.btn-add-cart{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    background-color: rgb(245, 131, 131);
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+.btn-add-cart:hover{
+    background-color: rgb(255, 198, 198);
+
+}
+
+.footer{
+    background-color:  rgb(250, 221, 183);
+    padding: 10px;
+}
+
+.footer  div{
+    padding: 10px;
+    text-align: center;
+}
